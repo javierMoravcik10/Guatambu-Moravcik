@@ -1,0 +1,502 @@
+body {
+    background-color: black;
+}
+
+
+#cuotas {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 22px;
+}
+
+h1 {
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+h1:hover {
+    text-decoration: underline;
+    color: red;
+    transition: 0.2s;
+}
+
+.logoNav {
+        filter: drop-shadow(7px 7px 10px rgb(0, 0, 0));
+}
+
+.logoFooter:hover {
+    filter: drop-shadow(7px 7px 10px rgb(255, 255, 255));
+}
+
+.logoNav:hover, .logoFooter:hover {
+    transform: scale(1.1);
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+.logoNav, .logoFooter {
+    border-radius: 5px;
+}
+
+
+.li1 {
+    color: brown;
+}
+
+ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.buscador {
+    margin-top: 10px;
+    margin-right: 60px;
+    width: 300px;
+}
+
+.bordeNav {
+    border-bottom: 2px solid black;
+}
+
+.seleccion {
+    background-image: url(./Imagenes/Green-leaves-texture-wood-board-background_3840x1200.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    height: 750px;
+    background-color: rgb(24, 24, 24);
+    background-attachment: fixed;
+}
+
+.margenCarousel, .datosContacto2 {
+    margin-top: 118px;
+}
+
+.margen {
+    margin-right: 30px;
+}
+
+.card {
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.tamaño:hover {
+    border: 2px dashed white;
+    opacity: 100%;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    overflow: hidden;
+    filter: drop-shadow(7px 7px 10px rgb(91, 155, 32));
+
+}
+
+.tamaño {
+    width: 300px;
+    opacity: 75%;
+
+}
+
+i {
+    color: white
+}
+
+.formulario {
+    background-color: black;
+    color: white;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.formu {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    font-weight: bold;
+    background-color: green;
+    transform: scale(0.9);
+    border-color: white;
+}
+
+.btn-primary:focus {
+    background-color: blue;
+}
+
+.flex, .mapa {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+iframe {
+    margin-top: 50px;
+}
+/* 
+.fondo {
+    background-color: black;
+    height: 560px;
+} */
+
+.borde {
+    border-bottom: 1px solid white;
+}
+
+.datosContacto2 {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1);
+
+    grid-template-areas: "datosContacto datosContacto";
+}
+
+.datosContacto {
+    grid-area: datosContacto;
+}
+
+.bannerContacto {
+    height: 270px;
+    background-image: url(./Imagenes/bannercontacto.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top:-2px;
+}
+
+.tituloBannerContacto {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+
+.textoContacto {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.divFooter {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.tituloNav {
+    font-size: 22px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.refNav {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.refNav:hover {
+    color: rgb(190, 10, 10);
+}
+
+.bi-facebook, .bi-instagram, .bi-whatsapp {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.bi-facebook:hover {
+    color: rgb(73, 96, 230);
+}
+
+.bi-instagram:hover {
+    color: rgb(201, 72, 72);
+}
+
+.bi-whatsapp:hover {
+    color: green;
+}
+
+.parrafoCopyright {
+    margin-top: 90px;
+}
+
+.hrBarra {
+    height: 4px;
+    background-color: white;
+}
+
+ /* HTML NOSOTROS */
+
+ .bannerNosotros {
+    margin-top: 130px;
+ }
+
+ .bannerNosotros:hover {
+        -webkit-transform: rotateY(180deg);
+        -webkit-transform-style: preserve-3d;
+        transform: rotateY(180deg);
+        transform-style: preserve-3d;
+        transition: all 0.5s;
+ }
+ 
+
+ .fondoDescripcionNosotros {
+    background-color: black;
+    color: white;
+ }
+
+ .imagenDescripcionNosotros {
+    background-image: url(./Imagenes/empresa-bg\ \(1\).jpg);
+    background-position-x: -600px;
+ }
+
+ .nos {
+    margin-top: 180px;
+    opacity: 70%;
+    border-radius: 30px;
+ }
+
+ .nos:hover {
+        border-radius:50%;
+        -webkit-border-radius:50%;
+        box-shadow: 0px 0px 15px 15px #ec731e;
+        -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transition: all 1s;
+ }
+
+.descripcionNosotrosTitulo {
+    background-color: rgb(255, 255, 255);
+    color: rgb(151, 17, 17);
+    margin-top: -20px;
+    margin-left: 230px;
+    position: absolute;
+    font-size: 32px;
+    font-weight: bold;
+    width: 950px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.descripcionNosotrosTitulo:hover {
+    background-image: linear-gradient(to right, black, transparent);
+}
+
+
+.descripcionNosotrosParrafo {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(235, 235, 178);
+}
+ 
+
+   /* HTML HOMBRE BOOTSTRAP */
+
+.presentacionCatalogo {
+    margin-top: 130px;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.pCHLista, .ubicacionHombre, .ubicacionMujer {
+    margin-top: 40px;
+}
+
+.ubicacionHombre:hover, .ubicacionMujer:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.listaCatalogo {
+    list-style: none;
+    margin-top: 50px;
+}
+
+.listaCatalogo li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+.folder {
+    width: 30px;
+    height: 30px;
+}
+
+
+.listaCatalogo li a:hover{
+    color: rgb(139, 3, 3);
+    text-decoration: underline;
+    transition: all .3s;
+}
+
+.h3Productos, .h3RangoDePrecios, .h3Categorias {
+    font-size: 30px;
+    color:   white;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.h3Categorias {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.fotoCatalogo, .pCHLista2 {
+    color: white;
+    height: auto;
+    border-bottom: 1px solid white;
+}
+
+.llavero, .stickers {
+    display: none;
+}
+
+/* .CatalogoHombre {
+    border-bottom: 1px solid white;
+} */
+
+.card-img-top {
+    opacity: 85%;
+}
+
+.card-img-top:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    overflow: hidden;
+    opacity: 100%;
+}
+
+.cardTamaño {
+    width: 200px;
+}
+
+/* .card-title, .card-text, .comprar {
+    text-align: center;
+} */
+
+.card-body {
+    text-align: center;
+}
+
+.comprar {
+    background-color: blue;
+    font-weight: bold;
+}
+
+footer {
+    height: 550px;
+}
+
+
+            /* MEDIA QUERI HTML INDEX */
+
+@media screen and (max-width: 776px) {
+            .seleccion {
+                height: auto;
+            }
+
+}
+
+
+            /* MEDIA QUERI HTML NOSOTROS */
+
+@media screen and (max-width: 776px) {
+    .descripcionNosotrosTitulo {
+        font-size: 17px;
+        width: 300px;
+        margin-left: 80px;
+    }
+
+    .nos {
+        margin-top: 20px;
+    }
+
+}
+
+
+    /* MEDIA QUERI NOSTROS BOOTSTRAP */
+
+@media screen and (max-width: 776px) {
+    .contenedorContacto2 {
+        display: grid;
+        grid-template-columns: 100%;
+
+        grid-template-areas: "datosContacto";
+    }
+
+    .datosContacto {
+        grid-area: datosContacto;
+    }
+
+    .bannerContacto {
+        background-image: url(./Imagenes/bannercontacto.jpg);
+        background-position: -270px;
+    }
+
+    .textoBannerContacto {
+        margin-top: -20px;
+    }
+}
+
+
+    /* MEDIA QUERI HOMBRE BOOTSTRAP */
+
+@media screen and (max-width: 776px) {
+         .pCHLista2 {
+            display: none;
+         }
+
+         .cardTamaño {
+            width: 200px;
+            text-align: center;
+         }
+
+         .h3Productos, .folder {
+            text-align: center;
+         }
+
+         .listaCatalogo {
+            margin-left: -10px;
+         }
+
+         .hrBarra {
+            margin-left: 20px;
+         }
+
+         .tarjeta {
+            display: contents;
+            flex-direction: row;
+         }
+
+         .aVer {
+            justify-content: space-around;
+         }
+}
