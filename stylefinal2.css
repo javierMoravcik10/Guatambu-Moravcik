@@ -464,6 +464,10 @@ footer {
     .textoBannerContacto {
         margin-top: -20px;
     }
+
+    .submit, .reset {
+        padding-left: 5px;
+    }
 }
 
 
